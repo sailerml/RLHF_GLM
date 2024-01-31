@@ -30,3 +30,12 @@ global step 70, epoch: 1, loss: -0.70710, speed: 0.20 step/s
 ```sh
 python inference_reward_model.py
 ```
+
+训练数据：
+
+路径  `data/reward_datasets/sentiment_analysis`
+每一行是一个排序序列（用\t符号隔开），排在越前面的越偏「正向情绪」，排在越后面越「负向情绪」。
+
+
+预训练模型：[nghuyong/ernie-3.0-base-zh · Hugging Face](https://huggingface.co/nghuyong/ernie-3.0-base-zh)
+
